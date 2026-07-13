@@ -33,6 +33,7 @@
     </ItemGroup>
 
     <ItemGroup>
+        <AdditionalFiles Include="localization\eng\ancients.json" />
         <PackageReference Include="Alchyr.Sts2.BaseLib" Version="*" PrivateAssets="All"/>
         <PackageReference Include="Krafs.Publicizer" Version="2.3.0" PrivateAssets="All"/>
         <PackageReference Include="Alchyr.Sts2.ModAnalyzers" Version="*"/>
@@ -58,6 +59,12 @@
         <None Include="CalliSts.json"/>
         <None Include="project.godot"/>
         <None Include="CalliSts/**"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="CalliSts\images\packed\map\ancients\" />
+      <Folder Include="CalliSts\images\ui\run_history\" />
+      <Folder Include="CalliSts\scenes\events\background_scenes\" />
     </ItemGroup>
 
     <Target Name="CheckDependencyPaths">

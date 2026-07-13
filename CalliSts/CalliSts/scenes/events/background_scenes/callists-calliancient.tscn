@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://t036a3muqr6i"]
+
+[ext_resource type="Texture2D" uid="uid://c0wnt3s88jhj8" path="res://CalliSts/images/ama-with-mori-calliope-ask-her-anything-about-her-concert-v0-zewdjl0phthe1.png" id="1_tfhfq"]
+
+[node name="Calli" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = -320.0
+offset_top = -60.0
+offset_right = 2240.0
+offset_bottom = 1140.0
+texture = ExtResource("1_tfhfq")
